@@ -31,4 +31,11 @@ public class CustomList {
         Collections.sort(cities) ;
         return cities ;
     }
+
+    public void deleteCity( City city )
+    {
+        if(cities.contains(city)) cities.remove(city) ;
+        else throw new IllegalArgumentException() ;
+    }
+
 }
