@@ -1,6 +1,7 @@
 package com.example.lab08;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class CustomList {
@@ -24,5 +25,10 @@ public class CustomList {
 
     public int countCities(){
         return cities.size() ;
+    }
+
+    public List<City> getCities(){
+        Collections.sort(cities) ;
+        return cities ;
     }
 }

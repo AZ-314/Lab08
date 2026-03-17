@@ -32,7 +32,7 @@ public class CustomListTest {
         citylist.addCity(other) ;
         assertEquals(2, citylist.countCities());
     }
-    /*
+
     @Test
     void testDeleteCity()
     {
@@ -48,6 +48,6 @@ public class CustomListTest {
 
     }
 
-     */
+
 
 }
